@@ -33,7 +33,7 @@ h2 {
 }
 main {
   margin: auto;
-  width: 40%;
+  width: 50%;
   height: 50vh;
   background-color: #fff4;
   border-radius: 2rem;
@@ -116,7 +116,7 @@ button {
   margin: 3% 1%;
   padding: 3%;
   min-width: 65%;
-  max-width: fit-content;
+  max-width: 70%;
   height: fit-content;
   font-size: 1.4vw;
   border-radius: 0.7rem;
