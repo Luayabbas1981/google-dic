@@ -1,5 +1,5 @@
 const input = document.getElementById("input");
-input.setAttribute("placeholder", "search word ...");
+input.setAttribute("placeholder", "search a word ...");
 const btn = document.getElementById("btn");
 const output = document.getElementById("output");
 const options = document.querySelectorAll("#options div");
