@@ -1,7 +1,6 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  user-select: none;
   font-family: "Acme", sans-serif;
   font-size: 1.6vw;
   height: 100vh;
@@ -70,6 +69,7 @@ button {
   cursor: pointer;
   font-family: "Acme", sans-serif;
   font-size: 1.2vw;
+  user-select: none;
 }
 #infos {
   display: flex;
@@ -95,6 +95,7 @@ button {
 #options div {
   transition: .8s;
   opacity: 0;
+  user-select: none;
   animation: appear 1s 1s forwards;
 }
 @keyframes appear{
