@@ -70,7 +70,7 @@ button {
   -webkit-background-clip: text;
   cursor: pointer;
   font-family: "Acme", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   user-select: none;
 }
 #infos {
