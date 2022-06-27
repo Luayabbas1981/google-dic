@@ -1,4 +1,5 @@
 const input = document.getElementById("input");
+const inputDiv = document.querySelector(".input")
 input.setAttribute("placeholder", "search a word ...");
 const btn = document.getElementById("btn");
 const output = document.getElementById("output");
@@ -17,6 +18,7 @@ btn.onclick = (e) => {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
+      inputDiv.textContent= input.value
       input.value = "";
       output.innerHTML = "";
       options.forEach((e) => e.classList.remove("active"));

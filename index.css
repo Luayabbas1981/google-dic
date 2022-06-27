@@ -32,6 +32,7 @@ h2 {
 }
 main {
   margin: auto;
+  position: relative;
   width: 45%;
   height: 50vh;
   background-color: #fff4;
@@ -92,16 +93,15 @@ button {
   gap: 3%;
   border: 1px solid #fff7;
   border-radius: 0.7rem;
-  
 }
 #options div {
-  transition: .8s;
+  transition: 0.8s;
   opacity: 0;
   user-select: none;
   animation: appear 1s 1s forwards;
 }
-@keyframes appear{
-  to{
+@keyframes appear {
+  to {
     opacity: 1;
   }
 }
@@ -127,7 +127,14 @@ button {
   transform: rotateY(-90deg);
   border: 1px solid #fff7;
 }
-
+.input {
+  position: absolute;
+  top: 18%;
+  right: 40%;
+  width: fit-content;
+  font-size: 1.2vw;
+  color: rgb(255, 255, 255);
+}
 @keyframes flow {
   to {
     transform: rotateY(0deg);
