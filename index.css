@@ -65,7 +65,9 @@ button {
   border-radius: 1rem;
   width: 5.5vw;
   height: 4vh;
-  color: rgb(194, 12, 194);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   cursor: pointer;
   font-family: "Acme", sans-serif;
   font-size: 1.2vw;
