@@ -61,7 +61,8 @@ btn.onclick = (e) => {
         options.forEach((e) => {
           e.classList.remove("active");
         });
-        e.target.classList.add("active");
+        console.log(e.target)
+        e.target.closest("#play").classList.add("active");
         output.innerHTML = "";
         inputDiv.innerHTML= `<i class="fa-solid fa-volume-high"></i>`
         output.innerHTML = value ;
@@ -72,7 +73,7 @@ btn.onclick = (e) => {
         play()
       };
     })
-   .catch(Error(error)); 
+  
 };
 
 
