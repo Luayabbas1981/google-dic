@@ -29,6 +29,7 @@ body {
 h2 {
   text-align: center;
   color: white;
+  user-select: none;
 }
 main {
   margin: auto;
@@ -132,9 +133,11 @@ button {
   top: 18%;
   right: 40%;
   width: fit-content;
-  font-size: 1.2vw;
-  color: rgb(255, 255, 255);
+  font-size: 1.6vw;
+  color: white;
+ 
 }
+
 @keyframes flow {
   to {
     transform: rotateY(0deg);
