@@ -113,9 +113,7 @@ button {
   color: white;
 }
 #output {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ text-align: center;
   align-self: center;
   margin: 3% 1%;
   padding: 3%;
@@ -130,12 +128,16 @@ button {
 }
 .input {
   position: absolute;
-  top: 18%;
-  right: 40%;
+  bottom: 4%;
+  left: 50%;
+  transform:translate(-50%) ;
   width: fit-content;
   font-size: 1.6vw;
   color: white;
- 
+  -webkit-transform:translate(-50%) ;
+  -moz-transform:translate(-50%) ;
+  -ms-transform:translate(-50%) ;
+  -o-transform:translate(-50%) ;
 }
 
 @keyframes flow {
