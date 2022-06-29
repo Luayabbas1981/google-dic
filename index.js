@@ -32,6 +32,7 @@ btn.onclick = (e) => {
           e.classList.remove("active");
         });
         e.target.classList.add("active");
+        inputDiv.textContent= value
         output.innerHTML = "";
         output.innerHTML = data[0].meanings[0].partOfSpeech;
       };
@@ -40,6 +41,7 @@ btn.onclick = (e) => {
           e.classList.remove("active");
         });
         e.target.classList.add("active");
+        inputDiv.textContent= value
         output.innerHTML = "";
         output.innerHTML = data[0].meanings[0].definitions[0].definition;
       };
@@ -48,6 +50,7 @@ btn.onclick = (e) => {
           e.classList.remove("active");
         });
         e.target.classList.add("active");
+        inputDiv.textContent= value
         output.innerHTML = "";
         output.innerHTML = data[0].meanings[0].definitions[0].example;
         if (!data[0].meanings[0].definitions[0].example) {
