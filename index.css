@@ -159,6 +159,7 @@ button {
   }
   #output{
     width: 65%;
+    font-size: 0.7rem;
   }
   #options{
     width: 35%;
